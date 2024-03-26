@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#content-container {
+    text-align: center;
+}
+
+#random-content {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px; 
+    /*background-color: #218838;*/
+    transform: scale(1.05);
+    transition: background-color 0.2s, transform 0.2s;
+}
